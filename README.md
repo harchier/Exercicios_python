@@ -1,0 +1,1 @@
+Lista de Exercícios em Python com exercicios encontrados na intenet
