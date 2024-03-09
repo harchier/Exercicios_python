@@ -15,7 +15,7 @@ print("-" * 100)
 print(f"{'Esse programa calcula o tempo de um download.':^100}")
 print("-" * 100)
 
-megabytes = verifica_entrada("Digite o tamanho do arquivo(MB): ")
+megabytes = verifica_entrada("Digite o tamanho do arquivo(Mb): ")
 velocidade = verifica_entrada("Digite a velocidade da internet(Mbps): ")
 
 megabits = megabytes * 8
