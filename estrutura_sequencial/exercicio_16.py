@@ -23,9 +23,11 @@ if(litros % 1 == 0):
 else:
     latas = (litros // 18) + 1
 sobra = (latas * 18) - litros
+preco = latas * 80
 
 print("=" * 100)
 print(f"A quantidade de tinta necessária é de {litros:.2f} L")
 print(f"O número de latas necessárias é de {latas}")
+print(f"O preço a ser pago é de R$ {preco}")
 print(f"Sobrará {sobra:.2f} L de tinta.")
 print("=" * 100)
